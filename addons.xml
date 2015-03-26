@@ -24,9 +24,9 @@
         version="0.0.3"
         provider-name="Canlazuka">
     <extension point="xbmc.addon.repository" name="Canlazuka Add-on Repository">
-        <info compressed="false">https://github.com/canlazuka/canlazuka/addons.xml</info>
-        <checksum>https://github.com/canlazuka/canlazuka/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/canlazuka/canlazuka/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/canlazuka/canlazuka/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/canlazuka/canlazuka/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/canlazuka/canlazuka/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Install Add-ons from XBMCTRSKYMC Add-on Repository</summary>
