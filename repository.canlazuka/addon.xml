@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.canlazuka"
+        name="repository Canlazuka"
+        version="0.0.2"
+        provider-name="Canlazuka">
+    <extension point="xbmc.addon.repository" name="Canlazuka Add-on Repository">
+        <info compressed="false">https://github.com/canlazuka/canlazuka/trunk/addons.xml</info>
+        <checksum>https://github.com/canlazuka/canlazuka/trunk/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/canlazuka/canlazuka/trunk/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Install Add-ons from XBMCTRSKYMC Add-on Repository</summary>
+        <summary lang="tr">Canlazuka Kurulum ve Guncelleme Deposu.</summary>
+        <description lang="en">Video plug-ins and Movie info scrapers for KODI</description>
+        <description lang="de">Addons für türkische Landsleute.</description>
+        <disclaimer lang="de">Canlazuka's xbmc plugins</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>

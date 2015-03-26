@@ -1,0 +1,20 @@
+Vesion 0.2.7
+ Moved to GitHub.
+Vesion 0.2.6
+ TürkTV fixed!
+Vesion 0.2.5
+ Fixed Radyodelisi
+Version 0.2.4
+ Added radyodelisi as source.
+Version 0.2.3
+ New Sources added.
+Version 0.2.2
+ Fixes
+Version 0.2.1
+ Login method implemented!
+Version 0.2
+ TURK TV added!
+Version 0.1
+ initial
+
+Version
