@@ -1,3 +1,7 @@
+Vesion 0.2.9
+ FIX!
+Vesion 0.2.8
+ FIX!
 Vesion 0.2.7
  Moved to GitHub.
 Vesion 0.2.6
