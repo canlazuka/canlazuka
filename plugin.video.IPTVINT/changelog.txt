@@ -1,3 +1,5 @@
+Vesion 0.3.2
+ Lists fixed
 Vesion 0.3.1
  FIX!
 Vesion 0.3.0
