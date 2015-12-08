@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="MENTALITY.repo"
-		name="MENTALITY Eklenti Deposu"
-		version="0.1.0"
-		provider-name="MENTALITY">
-	<extension point="xbmc.addon.repository" name="MENTALITY Add-on Repository">
-		<info compressed="false">https://raw.githubusercontent.com/mentality1976/mentality-repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/mentality1976/mentality-repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/mentality1976/mentality-repo/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Add-ons for KODI with german content!</summary>
-		<summary lang="tr">MENTALITY Kurulum ve Güncelleme Deposu.</summary>
-		<description lang="en">Video plug-ins and Movie info scrapers for KODI</description>
-		<description lang="de">Paar deutschsprachige Addons für KODI</description>
-		<disclaimer lang="de">MENTALITY's KODI plugins</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.IPTVINT"
        name="IPTVINT"
        version="0.3.4"
@@ -34,6 +15,26 @@
   <extension point="xbmc.addon.metadata">
     <summary>Mentality stellt vor</summary>
     <description>~~~Mentality wuenscht euch viel Spass~~~</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.seriesnever"
+       version="0.0.1"
+       name="SeriesEver"
+       provider-name="Mentality">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.module.requests" version="2.4.3"/>
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description></description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -55,24 +56,5 @@
         <disclaimer lang="de">Canlazuka's xbmc plugins</disclaimer>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="repository.evonic"
-		name="Evonic Repository"
-		version="0.0.2"
-		provider-name="MENTALITY">
-	<extension point="xbmc.addon.repository" name="Repository Evonic.tv">
-		<info compressed="false">https://raw.githubusercontent.com/mentality1976/repository-evonic/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/mentality1976/repository-evonic/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/mentality1976/repository-evonic/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Official repository for Evonic</summary>
-		<summary lang="tr">Evonic'e özel repository</summary>
-		<description lang="en">Official video addon for Evonic</description>
-		<description lang="de">Offizielles Repository für Evonic</description>
-		<disclaimer lang="de">MENTALITY's KODI plugins</disclaimer>
-		<platform>all</platform>
-	</extension>
 </addon>
 </addons>
