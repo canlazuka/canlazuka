@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.HdFilmeTV"
+       name="HdFilmeTV"
+       version="0.0.1"
+       provider-name="Mentality">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Mentality stellt vor</summary>
+    <description lang="de">Erste Ausgabe!
+~~~Mentality wünscht euch viel Spaß~~~</description>    
+    <description lang="en">First revision!
+~~~Have Fun!!! Mentality~~~</description>
+    <platform>all</platform>
+  </extension>
+</addon>
