@@ -1,3 +1,5 @@
+Version 0.0.0.3
+ Collections fixed!
 Version 0.0.0.2
  Fixes!
 Version 0.0.0.1
