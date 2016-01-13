@@ -43,7 +43,7 @@
 
 <addon id="plugin.video.oasetv"
        name="Stream Oase"
-       version="0.0.2"
+       version="0.0.3"
        provider-name="Mentality">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
