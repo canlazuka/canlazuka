@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.IPTVINT"
-       name="IPTVINT"
-       version="0.3.5"
+<addon id="plugin.video.Bieg"
+       name="Beeg"
+       version="0.0.2"
        provider-name="Mentality">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.0"/>
-      </requires>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+  </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Mentality stellt vor</summary>
-    <description>~~~Mentality wuenscht euch viel Spass~~~</description>
+    <description lang="de">
+~~~Mentality wünscht euch viel Spaß~~~</description>    
+    <description lang="en">Search was implemented
+~~~Have Fun!!! Mentality~~~</description>
     <platform>all</platform>
   </extension>
 </addon>

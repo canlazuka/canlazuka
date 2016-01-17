@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.video.Bieg"
+       name="Beeg"
+       version="0.0.2"
+       provider-name="Mentality">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Mentality stellt vor</summary>
+    <description lang="de">
+~~~Mentality wünscht euch viel Spaß~~~</description>
+    <description lang="en">Search was implemented
+~~~Have Fun!!! Mentality~~~</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.HdFilmeTV"
        name="HdFilmeTV"
        version="0.0.2"
@@ -24,7 +46,7 @@
 
 <addon id="plugin.video.IPTVINT"
        name="IPTVINT"
-       version="0.3.4"
+       version="0.3.5"
        provider-name="Mentality">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
