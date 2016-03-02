@@ -24,7 +24,7 @@
 
 <addon id="plugin.video.HdFilmeTV"
        name="HdFilmeTV"
-       version="0.0.3"
+       version="0.0.4"
        provider-name="Mentality">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -36,9 +36,9 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Mentality stellt vor</summary>
-    <description lang="de">Erste Ausgabe!
+    <description lang="de">Bugfixes!
 ~~~Mentality wünscht euch viel Spaß~~~</description>
-    <description lang="en">First revision!
+    <description lang="en">Bugfixes!
 ~~~Have Fun!!! Mentality~~~</description>
     <platform>all</platform>
   </extension>
@@ -46,7 +46,7 @@
 
 <addon id="plugin.video.IPTVINT"
        name="IPTVINT"
-       version="0.3.6"
+       version="0.3.7"
        provider-name="Mentality">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
