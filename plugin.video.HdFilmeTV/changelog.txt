@@ -1,3 +1,5 @@
+Version 0.0.6
+ Links Fixed!
 Version 0.0.5
  Links Fixes!
 Version 0.0.4
