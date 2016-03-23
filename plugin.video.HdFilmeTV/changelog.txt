@@ -1,3 +1,5 @@
+Version 0.0.8
+ Vimeo links Fixed!
 Version 0.0.7
  Links Fixes!
 Version 0.0.6
