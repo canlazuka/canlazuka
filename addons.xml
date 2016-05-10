@@ -67,7 +67,7 @@
 
 <addon id="plugin.video.IPTVINT"
        name="IPTVINT"
-       version="0.3.7"
+       version="0.3.8"
        provider-name="Mentality">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
