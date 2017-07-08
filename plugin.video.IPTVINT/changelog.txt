@@ -1,3 +1,5 @@
+Vesion 0.3.9
+ f4mTester implemented and exabytetv sources.
 Vesion 0.3.8
  ecnlitvizle implemented!
 Vesion 0.3.7

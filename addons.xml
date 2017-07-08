@@ -68,11 +68,12 @@
 
 <addon id="plugin.video.IPTVINT"
        name="IPTVINT"
-       version="0.3.8"
+       version="0.3.9"
        provider-name="Mentality">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.0"/>
+    <import addon="plugin.video.f4mTester" version="2.7.1"/>
       </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
