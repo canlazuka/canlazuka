@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.audio.mp3indirdur"
        name="mp3indirdur"
-       version="0.1.4"
+       version="0.1.5"
        provider-name="Mentality">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
